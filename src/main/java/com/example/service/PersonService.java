@@ -19,12 +19,12 @@ public class PersonService {
 		p.setLastName("Hamada");
 		persons.add(p);
 
-		Person p = new Person();
-		p.setId("2");
-		p.setAge(22);
-		p.setFirstName("Abdullah2");
-		p.setLastName("Hamada2");
-		persons.add(p);
+		Person p1 = new Person();
+		p1.setId("2");
+		p1.setAge(22);
+		p1.setFirstName("Abdullah2");
+		p1.setLastName("Hamada2");
+		persons.add(p1);
 		
 	}
 	public Person getPerson(String id) {
